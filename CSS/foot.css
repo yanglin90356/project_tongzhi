@@ -1,0 +1,45 @@
+/* 脚部 */
+.foot_bg {
+	background: #212838;
+}
+
+.my-10 {
+	margin-top: 8%;
+	margin-bottom: 8%;
+}
+
+.my-11 {
+	margin-top: 8%;
+}
+
+.ul2 .li2 {
+	margin-left: 8%;
+}
+
+.for_the_record {
+	font-size: 12px;
+}
+
+.foot_bg a {
+	text-decoration: none;
+}
+
+#weixin {
+	position: relative;
+}
+
+#weixin::before {
+	content: url(../IMG/erweima.png);
+	position: absolute;
+	top: -230px;
+	left: -94px;
+	display: none;
+}
+
+#weixin:hover::before {
+	display: block;
+}
+
+.my_button:hover{
+	background: #066acc;
+}

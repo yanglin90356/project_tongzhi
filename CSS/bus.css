@@ -1,0 +1,303 @@
+body {
+	font-family: "Roboto", Arial, Tahoma, sans-serif;
+	font-weight: 300;
+	margin: 0;
+	padding: 0;
+}
+
+/* 媒体查询 */
+@media (min-width:576px) {
+	#banner_2 {
+		height: 380px;
+	}
+
+	.banner_text {
+		margin-top: 60px;
+	}
+
+	.banner_text span {
+		font-size: 18px;
+	}
+
+	.banner_text p {
+		font-size: 14px;
+		line-height: 23px;
+		margin-top: 10px;
+	}
+}
+
+@media (min-width:767px) {
+	#banner_2 {
+		height: 380px;
+	}
+
+	.banner_text {
+		margin-top: 40px;
+	}
+
+	.banner_text span {
+		font-size: 18px;
+	}
+
+	.banner_text p {
+		font-size: 14px;
+		line-height: 23px;
+		margin-top: 10px;
+	}
+
+}
+
+@media (max-width:992px) {
+	.join_text_1 ul .li_2 {
+		font-size: 14px;
+		color: #646060;
+		margin-left: 12px;
+	}
+
+	.join_text_1 ul .li_3 {
+		font-size: 12px;
+		color: #646060;
+		margin-left: 15px;
+		line-height: 32px;
+		width: 280px;
+		text-align: left;
+		position: relative;
+		top: 25px;
+	}
+
+	#zhiwei_1>span {
+		font-size: 18px;
+	}
+
+	#zhiwei_1>p {
+		font-size: 14px;
+	}
+
+	.dipan {
+		background: url(../IMG/banner.jpg);
+		background-attachment: fixed;
+		background-position: 50% 0;
+		background-size: cover;
+		height: 311px;
+	}
+
+	.dipan a {
+		font-size: 12px;
+	}
+
+	#salary>.salary_1,
+	#salary.salary_2 {
+		font-size: 14px;
+	}
+}
+
+@media (min-width:993px) {
+	#banner_2 {
+		height: 900px;
+	}
+
+	.banner_text {
+		margin-top: 260px;
+	}
+
+	.banner_text span {
+		font-size: 28px;
+	}
+
+	.banner_text p {
+		font-size: 18px;
+		line-height: 43px;
+		margin-top: 12px;
+	}
+
+	.join_text_1 ul .li_2 {
+		font-size: 26px;
+		margin-left: 12px;
+	}
+
+	.join_text_1 ul .li_3 {
+		font-size: 18px;
+		color: #646060;
+		margin-left: 70px;
+		line-height: 32px;
+		width: 700px;
+		text-align: left;
+		position: relative;
+		top: 25px;
+	}
+
+	#zhiwei_1>span {
+		font-size: 28px;
+	}
+
+	#zhiwei_1>p {
+		font-size: 18px;
+	}
+
+	.dipan {
+		background: url(../IMG/banner.jpg);
+		background-attachment: fixed;
+		background-position: 50% 0;
+		background-size: cover;
+		height: 326px;
+	}
+
+	.dipan a {
+		font-size: 18px;
+	}
+
+	#salary>.salary_1 {
+		font-size: 28px;
+	}
+
+	#salary>.salary_2 {
+		font-size: 18px;
+	}
+}
+
+/* 大banner */
+#banner_2 {
+	background: url(../IMG/home_minimal_sectionbg5.jpg) center center no-repeat;
+	margin-top: 2.3%;
+	background-size: cover;
+}
+
+/* 留言 */
+.liuyan div input {
+	height: 4.5%;
+	margin-bottom: 4%;
+}
+
+.liuyan span {
+	font-size: 28px;
+	color: #646060;
+}
+
+.container_bg {
+	background: #f0f0f0;
+}
+
+.my_button {
+	width: 100%;
+	background: #0057ad;
+}
+
+.leave_word {
+	width: 100%;
+	height: 208px;
+	border-radius: 4px;
+	border: 1px solid #ccc;
+	padding-left: 1%;
+	padding-top: 1%;
+	top: 1%;
+	margin-bottom: 3%;
+	resize: none;
+	color: #555555;
+}
+
+/* 加入我们 */
+
+.zhaoping p {
+	font-size: 28px;
+	color: #646060;
+	margin-top: 30px;
+}
+
+.join_text_1 ul .li_1 {
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	background: #0557ad;
+	margin-top: 1%;
+}
+
+.join_text_1 ul li {
+	display: inline-block;
+}
+
+.join_text_1 ul {
+	margin-top: 33px;
+}
+
+.join_text_1 span {
+	font-size: 28px;
+	color: #646060;
+}
+
+/* 擅长职位 */
+#zhiwei_1::before {
+	content: "";
+	display: table;
+}
+
+#zhiwei_1>span {
+	display: block;
+	margin-top: 76px;
+}
+
+#zhiwei_1>p {
+	line-height: 40px;
+}
+
+.dipan a {
+	width: 200px;
+	height: 50px;
+	background: #ffffff;
+	display: block;
+	line-height: 50px;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	cursor: pointer;
+	border-radius: 4px;
+	text-decoration: none;
+	color: #646060;
+	transition: all 2s;
+}
+
+.dipan a:hover {
+	background: #1e78d1;
+	color: #ffffff;
+}
+
+/* 薪酬与福利 */
+.payment li {
+	display: inline-block;
+	width: 280px;
+	height: 285px;
+	text-align: center;
+	cursor: pointer;
+	padding-top: 20px;
+	transition: all 2s;
+	border-radius: 0.25rem;
+}
+
+.payment li p:last-child {
+	padding: 0 20px;
+	color: rgba(100, 100, 100, 0);
+	transition: color 2s;
+}
+
+.payment li:hover p:last-child {
+	color: rgba(100, 100, 100, 1);
+	text-align: left;
+}
+
+.payment li:hover {
+	background-color: #eee;
+}
+
+#salary>.salary_1 {
+	color: #646060;
+}
+
+#salary {
+	margin-top: 89px;
+}
+
+#salary>.salary_2 {
+	color: #646060;
+	line-height: 57px;
+	margin-top: 11px;
+}

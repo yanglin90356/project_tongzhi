@@ -1,0 +1,410 @@
+body {
+	font-family: "Roboto", Arial, Tahoma, sans-serif;
+	font-weight: 300;
+}
+
+/* 媒体查询 */
+@media (max-width:575.99px) {
+	.frist>div>div>a>img {
+		width: 210px;
+		height: 210px;
+	}
+
+	.frist>div {
+		flex-direction: column;
+	}
+}
+
+@media (min-width:576px) {
+	.pic div {
+		padding: 60px;
+		margin-left: 20px;
+	}
+
+	.idea_1 {
+		font-size: 20px;
+	}
+
+	.idea_2 {
+		font-size: 20px;
+	}
+
+	.degus {
+		font-size: 18px;
+	}
+
+	.container_bg .container {
+		max-width: 100%;
+	}
+
+	.world_map_text {
+		right: 15%;
+		bottom: -8%;
+		font-size: 18px;
+	}
+
+	.mac {
+		transform: scale(0.6);
+	}
+
+	.sc_bg div div div div a p {
+		font-size: 14px;
+	}
+
+	.sc_bg div div div div a h2 {
+		font-size: 16px;
+	}
+
+	.frist>div>div>a>img {
+		width: 210px;
+		height: 210px;
+	}
+
+	.frist {
+		width: 100%;
+	}
+}
+
+@media (min-width:768px) {
+	.pic div {
+		padding: 60px;
+	}
+
+	.degus {
+		font-size: 28px;
+	}
+
+	.world_map_text {
+		right: 5%;
+	}
+
+	.world_map_text {
+		right: 18%;
+		bottom: -5%;
+		font-size: 18px;
+	}
+
+	.sc_bg div div div div a p {
+		font-size: 14px;
+	}
+
+	.sc_bg div div div div a h2 {
+		font-size: 16px;
+	}
+
+	.mac {
+		transform: scale(0.6);
+		transform: translateX(-120px);
+	}
+
+	.frist>div {
+		flex-wrap: nowrap;
+	}
+}
+
+@media (min-width:992px) {
+	.pic div {
+		padding: 60px;
+	}
+
+	.idea_1 {
+		font-size: 36px;
+	}
+
+	.idea_2 {
+		font-size: 22px;
+	}
+
+	.container_bg .container {
+		max-width: 1140px
+	}
+
+	.world_map_text {
+		right: 37%;
+		bottom: 4%;
+		font-size: 22px;
+	}
+
+	.mac {
+		transform: scale(1);
+	}
+
+	.sc_bg div div div div a p {
+		font-size: 18px;
+	}
+
+	.sc_bg div div div div a h2 {
+		font-size: 28px;
+	}
+
+	.frist>div>div>a>img {
+		width: 280px;
+		height: 210px;
+	}
+
+	.frist {
+		width: 80%;
+	}
+}
+
+@media (min-width:1050px) {
+	.frist {
+		width: 100%;
+	}
+}
+
+@media (min-width:1200px) {
+	.frist {
+		width: 80%;
+	}
+}
+
+/* video_banner */
+#video_1 {
+	width: 100%;
+	border-bottom: 8px solid #666;
+}
+
+#banner {
+	position: relative;
+}
+
+.idea {
+	position: absolute;
+	margin-top: -25%;
+	color: #FFF;
+}
+
+.idea_1 {
+	margin-bottom: 10px;
+}
+
+.idea_3 {
+	font-size: 22px;
+	margin-top: -16px;
+}
+
+.header_nav_text {
+	font-size: 18px;
+}
+
+.pic div {
+	background: #fff;
+	border-radius: 4px;
+	margin-right: 2%;
+	margin-bottom: 2%;
+	border: 1px solid #b6b6b6;
+	margin-top: -40px;
+}
+
+
+/* bapmic */
+.degus {
+	display: block;
+	color: #646060;
+	padding-bottom: 3%;
+}
+
+.course p {
+	color: #767474;
+	line-height: 26px;
+	margin: 0 0 1%;
+}
+
+/* 控制臂，减震器 */
+
+.frist {
+	margin: 50px auto;
+}
+
+/* 海外商城 */
+.sc_bg {
+	background: #f0f0f0;
+}
+
+.frist img:hover {
+	transform: scale(1.1);
+}
+
+.frist a img {
+	cursor: pointer;
+	transition: all 0.6s;
+}
+
+.frist .mac {
+	background-image: url(../IMG/mac.png);
+}
+
+.mac {
+	background: url(../IMG/mac.png) no-repeat;
+	background-size: 100%;
+	background-position: center;
+	height: 30%;
+	margin: 30px 0 0 130px;
+}
+
+.w-40 {
+	width: 400px !important;
+}
+
+/* 海外商城文字 */
+.sc_bg div div div div a {
+	color: #646060;
+}
+
+.sc_bg div div div div a:hover {
+	text-decoration: none;
+	color: #337AB7 !important;
+}
+
+/* 轮播图 */
+.w-76 {
+	width: 76% !important;
+}
+
+.mac_img_my {
+	margin-top: 10%;
+}
+
+.carousel-indicators li {
+	width: .4rem;
+	height: .4rem;
+	border-radius: 50%;
+	background-color: #fff;
+	cursor: pointer;
+}
+
+.carousel-indicators {
+	bottom: -26px;
+}
+
+.carousel-indicators .active {
+	background-color: #666;
+}
+
+.carousel-control-prev {
+	width: 4%;
+	height: 20%;
+	background-color: #aaa;
+	border-radius: 0.25rem;
+	top: 50%;
+	left: 12%;
+}
+
+.carousel-control-next {
+	width: 4%;
+	height: 20%;
+	background-color: #aaa;
+	border-radius: 0.25rem;
+	top: 50%;
+	right: 12%;
+}
+
+/* 世界地图 */
+.world_map_text {
+	z-index: 3;
+	color: #fff;
+}
+
+.world_map>div>div {
+	position: absolute;
+	z-index: 2;
+}
+
+.dada_2,
+.dada_3 {
+	width: 5px;
+	height: 5px;
+	border-radius: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+}
+
+.world_map>div>div .dada_2 {
+	background: #fff;
+}
+
+.world_map>div>div .dada_3 {
+	content: "";
+	display: block;
+	background: rgba(0, 0, 0, 0);
+	border: 3px solid rgba(255, 255, 255, 1);
+	animation: a 1s infinite linear;
+}
+
+@keyframes a {
+	0% {
+		width: 5px;
+		height: 5px;
+	}
+
+	100% {
+		width: 40px;
+		height: 40px;
+		border-color: rgba(255, 255, 255, 0);
+	}
+}
+
+.world_map div .da_1 {
+	top: 43%;
+	left: 32%;
+}
+
+.world_map div .da_2 {
+	top: 37%;
+	left: 31.5%;
+}
+
+.world_map div .da_3 {
+	top: 39.5%;
+	left: 36.7%;
+}
+
+.world_map div .da_4 {
+	bottom: 24%;
+	right: 26%;
+}
+
+.world_map div .da_5 {
+	top: 38%;
+	left: 51%;
+}
+
+.world_map div .da_6 {
+	top: 32%;
+	right: 28%;
+}
+
+
+/* 给我们留言 */
+.liuyan div input {
+	height: 4.5%;
+	margin-bottom: 4%;
+}
+
+.liuyan span {
+	font-size: 28px;
+	color: #646060;
+}
+
+.container_bg {
+	background: #f0f0f0;
+}
+
+.my_button {
+	width: 100%;
+	background: #0057ad;
+}
+
+.leave_word {
+	width: 100%;
+	height: 208px;
+	border-radius: 4px;
+	border: 1px solid #ccc;
+	padding-left: 1%;
+	padding-top: 1%;
+	top: 1%;
+	margin-bottom: 3%;
+	resize: none;
+	color: #555555;
+}

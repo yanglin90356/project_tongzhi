@@ -1,0 +1,53 @@
+.header {
+	width: 100%;
+	background-color: #fff;
+	position: fixed;
+	z-index: 9999;
+	top: 0;
+}
+
+.header_1 {
+	margin: 0 auto;
+	width: 90%;
+	padding: 0;
+	height: 45px;
+}
+
+.header div ul li a:hover {
+	text-decoration: none;
+	color: #337ab7 !important;
+}
+
+.header div ul li {
+	position: relative;
+	height: 45px;
+	line-height: 45px;
+}
+
+.header div ul li a .text_color {
+	color: #337AB7;
+}
+
+.header div ul li ul {
+	width: 100px;
+	position: absolute;
+	left: -14px;
+	top: 45px;
+	box-sizing: border-box;
+	background: #fff;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	display: none;
+}
+
+.header div ul li:hover ul {
+	display: block;
+}
+
+.header div ul li ul li {
+	text-align: center;
+}
+
+.header div ul li ul li a {
+	font-size: 14px;
+}
